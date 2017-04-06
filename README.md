@@ -11,7 +11,7 @@ HL_MVVM_Project(AFNetworking+Masonry+ReactiveObjC+MJExtension+SinaWeiboApi)
 
 【项目说明】
 
-项目主要借鉴了以下两个MVVM中的代码学习，汲取精华，结合以往项目需求，搭建完成了本项目。
+项目主要借鉴了以下两个MVVM中的代码学习，汲取精华，结合以往项目需求，搭建完成了本项目的框架。
 
 https://github.com/wanglongshuai/MVVM-RAC-Demo
 
