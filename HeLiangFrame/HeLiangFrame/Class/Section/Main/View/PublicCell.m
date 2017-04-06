@@ -11,6 +11,7 @@
 
 @interface PublicCell ()
 @property (strong, nonatomic)  UILabel *userName;
+@property (strong, nonatomic)  UILabel *userLocation;
 @property (strong, nonatomic)  UIImageView *headImageView;
 @property (strong, nonatomic)  UILabel *weiboText;
 
@@ -19,17 +20,18 @@
 @implementation PublicCell
 
 /*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+ // Only override drawRect: if you perform custom drawing.
+ // An empty implementation adversely affects performance during animation.
+ - (void)drawRect:(CGRect)rect {
+ // Drawing code
+ }
+ */
 
 -(void)hl_setupViews{
     
     [self.contentView addSubview:self.headImageView];
     [self.contentView addSubview:self.userName];
+    [self.contentView addSubview:self.userLocation];
     [self.contentView addSubview:self.weiboText];
     [self setNeedsUpdateConstraints];
     [self updateConstraintsIfNeeded];
@@ -48,9 +50,16 @@
         make.left.equalTo(self.headImageView.mas_right).offset(paddingEdge);
         make.top.equalTo(self.headImageView);
         make.right.mas_equalTo(-paddingEdge);
-        make.height.mas_equalTo(15);
+        make.height.mas_equalTo(2*paddingEdge).priorityHigh();
     }];
-
+    
+    [self.userLocation mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.userName);
+        make.top.equalTo(self.userName.mas_bottom).offset(paddingEdge);
+        make.right.mas_equalTo(-paddingEdge);
+        make.bottom.equalTo(self.headImageView);
+    }];
+    
     [self.weiboText mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.headImageView.mas_bottom).offset(paddingEdge);
         make.left.equalTo(self.headImageView);
@@ -67,6 +76,7 @@
     }
     _model = model;
     self.userName.text = model.user.name;
+    self.userLocation.text = model.user.location;
     self.weiboText.text = model.text;
     [self.headImageView setImageWithURL:model.user.profile_image_url];
 }
@@ -82,9 +92,15 @@
 - (UILabel *)userName {
     if (!_userName) {
         _userName = [[UILabel alloc] init];
-        _weiboText.numberOfLines = 1;
     }
     return _userName;
+}
+
+- (UILabel *)userLocation {
+    if (!_userLocation) {
+        _userLocation = [[UILabel alloc] init];
+    }
+    return _userLocation;
 }
 
 - (UILabel *)weiboText {
