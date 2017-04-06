@@ -158,14 +158,11 @@ static NSString * cellIdentifier = @"PublicCell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     PublicCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
-    if (self.viewModel.dataArray.count > indexPath.row) {
-        [self configureCell:cell atIndexPath:indexPath];
-    }
+    [self configureCell:cell atIndexPath:indexPath];
     return cell;
 }
 
 - (void)configureCell:(PublicCell *)cell atIndexPath:(NSIndexPath *)indexPath {
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.model = self.viewModel.dataArray[indexPath.row];
 }
 
