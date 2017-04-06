@@ -19,7 +19,7 @@ HL_MVVM_Project(AFNetworking+Masonry+ReactiveObjC+MJExtension+SinaWeiboApi)
 
   3.网络监测,下拉刷新，上拉加载。
   
-  <img width="320" height="568" src="https://raw.githubusercontent.com/heliang219/HL_MVVM/master/HL_MVVM/Screenshot.png"/></br>
+  <img width="320" height="568" src="https://raw.githubusercontent.com/heliang219/HL_MVVM/master/HeLiangFrame/Screenshot.png"/></br>
   
 【项目说明】
 --------
