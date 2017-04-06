@@ -1,0 +1,17 @@
+
+platform :ios,'10.0'
+inhibit_all_warnings!
+
+target 'HL_MVVM' do
+  pod 'AFNetworking'
+  pod 'Masonry'
+  pod 'SVProgressHUD'
+  pod 'IQKeyboardManager'
+  pod 'BlocksKit'
+  pod 'MJExtension'
+  pod 'MJRefresh'
+  pod 'ReactiveObjC'
+  pod 'DZNEmptyDataSet'
+  pod 'UITableView+FDTemplateLayoutCell'
+end
+
