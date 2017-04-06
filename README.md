@@ -16,8 +16,8 @@ HL_MVVM_Project(AFNetworking+Masonry+ReactiveObjC+MJExtension+SinaWeiboApi)
 
   2.自动化布局，高度自适应。
 
-  3.下拉刷新，上来加载。
-
+  3.网络监测,下拉刷新，上来加载。
+  
 【项目说明】
 
   项目主要借鉴了以下两个MVVM中的代码学习，汲取精华，结合以往项目经验和需求，搭建完成了本项目的框架。
