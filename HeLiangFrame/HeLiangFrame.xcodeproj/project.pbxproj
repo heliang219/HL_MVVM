@@ -26,7 +26,6 @@
 		344694851E8F59E300640E1C /* PublicTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344694841E8F59E300640E1C /* PublicTableView.m */; };
 		344694881E8F7FFE00640E1C /* PublicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 344694871E8F7FFE00640E1C /* PublicCell.m */; };
 		3446948D1E8F937E00640E1C /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3446948C1E8F937E00640E1C /* UserInfo.m */; };
-		3446948F1E8F99F000640E1C /* placeHold.png in Resources */ = {isa = PBXBuildFile; fileRef = 3446948E1E8F99F000640E1C /* placeHold.png */; };
 		C548E4DDD5C956A00ECA4BF9 /* libPods-HeLiangFrame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA1861C3995335FB8E8A2F3 /* libPods-HeLiangFrame.a */; };
 /* End PBXBuildFile section */
 
@@ -76,7 +75,6 @@
 		3446948A1E8F899D00640E1C /* HLViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLViewControllerProtocol.h; sourceTree = "<group>"; };
 		3446948B1E8F937E00640E1C /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		3446948C1E8F937E00640E1C /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
-		3446948E1E8F99F000640E1C /* placeHold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeHold.png; sourceTree = "<group>"; };
 		8C7E92A5B34FD26D1BF22686 /* Pods-HeLiangFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeLiangFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeLiangFrame/Pods-HeLiangFrame.debug.xcconfig"; sourceTree = "<group>"; };
 		DCA1861C3995335FB8E8A2F3 /* libPods-HeLiangFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeLiangFrame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD40856D21D7180D2BCF0A8 /* Pods-HeLiangFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeLiangFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeLiangFrame/Pods-HeLiangFrame.release.xcconfig"; sourceTree = "<group>"; };
@@ -235,7 +233,6 @@
 		344694601E8E01F600640E1C /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				3446948E1E8F99F000640E1C /* placeHold.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -421,7 +418,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3446948F1E8F99F000640E1C /* placeHold.png in Resources */,
 				344694391E8CDD2B00640E1C /* LaunchScreen.storyboard in Resources */,
 				344694361E8CDD2B00640E1C /* Assets.xcassets in Resources */,
 				344694341E8CDD2B00640E1C /* Main.storyboard in Resources */,
