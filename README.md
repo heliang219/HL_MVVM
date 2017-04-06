@@ -1,8 +1,10 @@
 # HL_MVVM
 
 HL_MVVM_Project(AFNetworking+Masonry+ReactiveObjC+MJExtension+SinaWeiboApi)
+========
 
 【目标】
+--------
 
   1.学习MVVM，熟练运用，搭建简洁明了的项目框架。
 
@@ -11,6 +13,7 @@ HL_MVVM_Project(AFNetworking+Masonry+ReactiveObjC+MJExtension+SinaWeiboApi)
   3.开源交流，互相学习，共同进步。
 
 【主要功能】
+--------
 
   1.新浪微博数据解析。
 
@@ -22,6 +25,7 @@ HL_MVVM_Project(AFNetworking+Masonry+ReactiveObjC+MJExtension+SinaWeiboApi)
   
   
 【项目说明】
+--------
 
   项目主要借鉴了以下两个MVVM中的代码学习，汲取精华，结合以往项目经验和需求，搭建完成了本项目的框架。
 
