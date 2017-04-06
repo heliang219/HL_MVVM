@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/heliang/Desktop/HL_MVVM/HL_MVVM.xcodeproj">
+      location = "group:HeLiangFrame.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

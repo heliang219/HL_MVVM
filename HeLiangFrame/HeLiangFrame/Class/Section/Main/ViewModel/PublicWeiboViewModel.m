@@ -23,14 +23,14 @@
     [self.refreshDataCommand.executionSignals.switchToLatest subscribeNext:^(NSDictionary *dict) {
         @strongify(self);
         [PublicModel mj_setupObjectClassInArray:^NSDictionary *{
-                                                    return @{
-                                                       @"user" :                      @"UserInfo",
-                                                            };
-                                                }];
+            return @{
+                     @"user" :                      @"UserInfo",
+                     };
+        }];
         
         self.dataArray = [PublicModel mj_objectArrayWithKeyValuesArray:dict[STATUSES]];
-          [self.refreshEndSubject sendNext:@(HLHeaderRefreshData)];
-          [SVProgressHUD dismiss];
+        [self.refreshEndSubject sendNext:@(HLHeaderRefreshData)];
+        [SVProgressHUD dismiss];
     }];
     
     [[[self.refreshDataCommand.executing skip:1] take:1] subscribeNext:^(id x) {
@@ -132,7 +132,7 @@
 }
 
 - (NSArray *)dataArray {
-
+    
     if (!_dataArray) {
         
         _dataArray = [[NSArray alloc] init];

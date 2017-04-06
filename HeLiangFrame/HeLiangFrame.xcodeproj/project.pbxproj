@@ -26,11 +26,12 @@
 		344694851E8F59E300640E1C /* PublicTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 344694841E8F59E300640E1C /* PublicTableView.m */; };
 		344694881E8F7FFE00640E1C /* PublicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 344694871E8F7FFE00640E1C /* PublicCell.m */; };
 		3446948D1E8F937E00640E1C /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3446948C1E8F937E00640E1C /* UserInfo.m */; };
+		3446948F1E8F99F000640E1C /* placeHold.png in Resources */ = {isa = PBXBuildFile; fileRef = 3446948E1E8F99F000640E1C /* placeHold.png */; };
 		C548E4DDD5C956A00ECA4BF9 /* libPods-HeLiangFrame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA1861C3995335FB8E8A2F3 /* libPods-HeLiangFrame.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		344694261E8CDD2A00640E1C /* HL_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HL_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		344694261E8CDD2A00640E1C /* HeLiangFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeLiangFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3446942A1E8CDD2A00640E1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3446942C1E8CDD2B00640E1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3446942D1E8CDD2B00640E1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 		3446948A1E8F899D00640E1C /* HLViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLViewControllerProtocol.h; sourceTree = "<group>"; };
 		3446948B1E8F937E00640E1C /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
 		3446948C1E8F937E00640E1C /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		3446948E1E8F99F000640E1C /* placeHold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeHold.png; sourceTree = "<group>"; };
 		8C7E92A5B34FD26D1BF22686 /* Pods-HeLiangFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeLiangFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeLiangFrame/Pods-HeLiangFrame.debug.xcconfig"; sourceTree = "<group>"; };
 		DCA1861C3995335FB8E8A2F3 /* libPods-HeLiangFrame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeLiangFrame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCD40856D21D7180D2BCF0A8 /* Pods-HeLiangFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeLiangFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeLiangFrame/Pods-HeLiangFrame.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +99,7 @@
 			children = (
 				344694451E8DFE7000640E1C /* Class */,
 				3446945D1E8E01F600640E1C /* Resource */,
-				344694281E8CDD2A00640E1C /* HL_MVVM */,
+				344694281E8CDD2A00640E1C /* HeLiangFrame */,
 				344694271E8CDD2A00640E1C /* Products */,
 				EEA40BB32E57437529201460 /* Pods */,
 				E42B49B2DFD4D36C795EF59A /* Frameworks */,
@@ -107,12 +109,12 @@
 		344694271E8CDD2A00640E1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				344694261E8CDD2A00640E1C /* HL_MVVM.app */,
+				344694261E8CDD2A00640E1C /* HeLiangFrame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		344694281E8CDD2A00640E1C /* HL_MVVM */ = {
+		344694281E8CDD2A00640E1C /* HeLiangFrame */ = {
 			isa = PBXGroup;
 			children = (
 				3446942C1E8CDD2B00640E1C /* AppDelegate.h */,
@@ -123,7 +125,7 @@
 				3446943A1E8CDD2B00640E1C /* Info.plist */,
 				344694291E8CDD2A00640E1C /* Supporting Files */,
 			);
-			path = HL_MVVM;
+			path = HeLiangFrame;
 			sourceTree = "<group>";
 		};
 		344694291E8CDD2A00640E1C /* Supporting Files */ = {
@@ -145,7 +147,7 @@
 				344694741E8E544C00640E1C /* Section */,
 			);
 			name = Class;
-			path = HL_MVVM/Class;
+			path = HeLiangFrame/Class;
 			sourceTree = "<group>";
 		};
 		344694461E8DFE7000640E1C /* Base */ = {
@@ -211,7 +213,7 @@
 				344694621E8E01F600640E1C /* Videos */,
 			);
 			name = Resource;
-			path = HL_MVVM/Resource;
+			path = HeLiangFrame/Resource;
 			sourceTree = "<group>";
 		};
 		3446945E1E8E01F600640E1C /* Files */ = {
@@ -231,6 +233,7 @@
 		344694601E8E01F600640E1C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3446948E1E8F99F000640E1C /* placeHold.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -359,9 +362,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		344694251E8CDD2A00640E1C /* HL_MVVM */ = {
+		344694251E8CDD2A00640E1C /* HeLiangFrame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3446943D1E8CDD2B00640E1C /* Build configuration list for PBXNativeTarget "HL_MVVM" */;
+			buildConfigurationList = 3446943D1E8CDD2B00640E1C /* Build configuration list for PBXNativeTarget "HeLiangFrame" */;
 			buildPhases = (
 				BB4CA6626D0B8141B2D78C14 /* [CP] Check Pods Manifest.lock */,
 				344694221E8CDD2A00640E1C /* Sources */,
@@ -374,9 +377,9 @@
 			);
 			dependencies = (
 			);
-			name = HL_MVVM;
+			name = HeLiangFrame;
 			productName = HeLiangFrame;
-			productReference = 344694261E8CDD2A00640E1C /* HL_MVVM.app */;
+			productReference = 344694261E8CDD2A00640E1C /* HeLiangFrame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -395,7 +398,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 344694211E8CDD2A00640E1C /* Build configuration list for PBXProject "HL_MVVM" */;
+			buildConfigurationList = 344694211E8CDD2A00640E1C /* Build configuration list for PBXProject "HeLiangFrame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -408,7 +411,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				344694251E8CDD2A00640E1C /* HL_MVVM */,
+				344694251E8CDD2A00640E1C /* HeLiangFrame */,
 			);
 		};
 /* End PBXProject section */
@@ -418,6 +421,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3446948F1E8F99F000640E1C /* placeHold.png in Resources */,
 				344694391E8CDD2B00640E1C /* LaunchScreen.storyboard in Resources */,
 				344694361E8CDD2B00640E1C /* Assets.xcassets in Resources */,
 				344694341E8CDD2B00640E1C /* Main.storyboard in Resources */,
@@ -617,8 +621,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 74V487DMC2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/HL_MVVM/PrefixHeader.pch";
-				INFOPLIST_FILE = HL_MVVM/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HeLiangFrame/PrefixHeader.pch";
+				INFOPLIST_FILE = HeLiangFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.xxcb.HeLiangFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -632,8 +636,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 74V487DMC2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/HL_MVVM/PrefixHeader.pch";
-				INFOPLIST_FILE = HL_MVVM/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HeLiangFrame/PrefixHeader.pch";
+				INFOPLIST_FILE = HeLiangFrame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.xxcb.HeLiangFrame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -643,7 +647,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		344694211E8CDD2A00640E1C /* Build configuration list for PBXProject "HL_MVVM" */ = {
+		344694211E8CDD2A00640E1C /* Build configuration list for PBXProject "HeLiangFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3446943B1E8CDD2B00640E1C /* Debug */,
@@ -652,7 +656,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3446943D1E8CDD2B00640E1C /* Build configuration list for PBXNativeTarget "HL_MVVM" */ = {
+		3446943D1E8CDD2B00640E1C /* Build configuration list for PBXNativeTarget "HeLiangFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3446943E1E8CDD2B00640E1C /* Debug */,

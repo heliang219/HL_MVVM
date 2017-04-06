@@ -165,6 +165,7 @@ static NSString * cellIdentifier = @"PublicCell";
 }
 
 - (void)configureCell:(PublicCell *)cell atIndexPath:(NSIndexPath *)indexPath {
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.model = self.viewModel.dataArray[indexPath.row];
 }
 
